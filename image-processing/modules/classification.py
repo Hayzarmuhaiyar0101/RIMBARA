@@ -28,3 +28,4 @@ def classify_burn_severity(dnbr):
     result[valid & (dnbr > 0.66)] = 7
 
     return result
+    
