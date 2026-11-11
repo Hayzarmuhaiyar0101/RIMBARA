@@ -4,6 +4,7 @@ import numpy as np
 from modules.nbr import calculate_nbr
 from modules.dnbr import calculate_dnbr
 from modules.classification import classify_burn_severity
+from modules.visualization import visualize_dnbr
 
 
 def run_rimbara():
@@ -24,6 +25,8 @@ def run_rimbara():
 
     # Classification
     severity = classify_burn_severity(dnbr)
+    visualize_dnbr(dnbr, "outputs/dnbr_simulation.png")
+
 
     print("\n===== RIMBARA IMAGE PROCESSING =====")
     print("NBR Before:", nbr_pre)
