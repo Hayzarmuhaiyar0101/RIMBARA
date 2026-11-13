@@ -17,3 +17,4 @@ Route::get('/status', function () {
         'status' => 'ONLINE'
     ]);
 });
+
