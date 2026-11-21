@@ -42,3 +42,14 @@ satellite-data/processed/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# RIMBARA generated geometry datasets
+image-processing/data/boundaries/geometry_checkpoint.json
+image-processing/data/boundaries/geometry_checkpoint.tmp
+image-processing/data/boundaries/indonesia_national_esrijson.json
+image-processing/data/boundaries/indonesia_national_esrijson.tmp
+image-processing/data/boundaries/geometry_validity_audit.csv
+
+# Python cache and environment
+image-processing/venv/
+image-processing/**/__pycache__/
